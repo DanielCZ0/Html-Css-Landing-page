@@ -39,3 +39,45 @@ header{
         list-style: none;
     }
 }
+
+/*======================== SECTION ======================*/
+
+.ini{
+    display: flex;
+    padding: 15px 0;
+    height: 30vw;
+    justify-content: space-between;
+    margin: 20px 35px;
+    img{
+        width: 45vw;
+        height: 90%;
+        background-color: #aaa;
+        object-fit: cover; 
+        border-radius: 2%;
+    }
+}
+
+.iniSec{
+    margin: 20px;
+}
+
+.iniTitle{
+    font-size: 55px;
+}
+
+.iniTxt{
+    font-size: 20px;
+    color:#676767;
+    padding-top: 25px;
+    margin-right: 100px;
+    padding-bottom: 25px;
+}
+
+.iBtn{
+    padding: 15px;
+    background-color: #357073;
+    color:#fff;
+    border-style:none;
+    font-weight: bold;
+    font-size: 25px;
+}
