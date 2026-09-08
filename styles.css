@@ -99,8 +99,9 @@ header{
 .services-container{
     display: flex;
     justify-content: space-between;
-    margin: 35px;
-    padding-bottom: 40px;
+    margin-left: 35px;
+    margin-right: 35px;
+    padding-bottom: 60px;
 }
 
 .service-card{
@@ -121,4 +122,24 @@ header{
         font-weight: bold;
         font-size: 30px;
     }
+}
+
+/*======================== FOOTER ======================*/
+
+.footer-bar{
+    background-color: #dfe3e2;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    ul{
+        display: flex;
+        gap: 35px;
+        list-style: none;
+    }
+}
+
+.footer-txt{
+    color: #357073;
+    font-size: 20px; 
 }
