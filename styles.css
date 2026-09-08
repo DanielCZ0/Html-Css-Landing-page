@@ -81,3 +81,44 @@ header{
     font-weight: bold;
     font-size: 25px;
 }
+
+/*======================== SERVICES ======================*/
+
+.servic{
+    background-color: #f2f4f3;
+}
+
+.servTxt{
+    text-align: center;
+    padding-top: 70px;
+    padding-bottom: 35px;
+    font-size: 35px;
+    color: #357073;
+}
+
+.services-container{
+    display: flex;
+    justify-content: space-between;
+    margin: 35px;
+    padding-bottom: 40px;
+}
+
+.service-card{
+    text-align: center;
+    border: 1px solid #aaa;
+    border-radius: 5px;
+    height: 22.5vw;
+    width: 22.5vw;
+    background-color: #fff;
+    img{
+        width: 100%;
+        height: 66%;
+        background-color: #aaa;
+    }
+    p{
+        margin: 15px;
+        text-align: center;
+        font-weight: bold;
+        font-size: 30px;
+    }
+}
